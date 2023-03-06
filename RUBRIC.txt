@@ -1,0 +1,39 @@
+*Copied from the courseproject2023 document (see BrightSpace)
+
+DELIVERABLE 2 REQUIREMENTS
+----------------------------
+Please submit a .zip file that includes the following:
+1. A report that includes the following:
+	a. The DBMS and the programming languages that you have used in your implementation       	   of the application.
+	b. Specific steps to guide someone to install your applications
+	c. A list with the DDLs that create your database
+2. Your SQL code that supports all the functionalities in your application
+3. All the code that is necessary for running your application
+
+
+
+GRADING
+---------
+
+(10%) Implement the database according to your relational database schema and the
+constraints that you have defined.
+
+(5%) Insert in your database data for each one of the 5 hotel chains. Each one of them has at least 8 hotels, which belong to at least 3 categories. Two of the hotels at least should be in the same area. Each hotel should have at least 5 rooms of different capacity.
+
+(10%) Create the necessary SQL modifications (use queries and triggers): Your database
+should allow insert, delete and update operations of data in your database according to the
+referential integrity constraints that you have defined. Give the SQL code for at least 4
+queries and 2 triggers of your choice in your report.
+
+(10%) Implement at least three indexes on the relations of your database and justify why you have chosen these indexes: explain what type of queries and data updates you are expecting on your database and how these indexes are useful to accelerate querying of the database.
+
+(30%) Design and implement an appropriate User Interface, through which a user will be able
+to see the available rooms by giving different, multiple and combinations of criteria in order to choose the room that he/she is interested in and book it or rent it. These criteria should be:the dates (start, end) of booking or renting, the room capacity, the area, the hotel chain, the category of the hotel, the total number of rooms in the hotel, the price of the rooms. The user should be able to see the available choices when he/she changes the value of any of these criteria. The User Interface should allow the insert/delete/update of all information related to customers, employees, hotels and rooms. The user can be either a customer (who will use the interface in order to search for rooms and do bookings) or a hotel employee (who will use the interface to either turn a booking to renting when a customer checks in the hotel, or do directly a renting when a customer presents physically to the hotel). An employee should be able to insert a customer payment for a renting through the interface. The User Interface should be user friendly, meaning that the user is not required to know SQL. All information should be presented to the user through appropriately designed forms. Whenever necessary you should use appropriate elements, like drop-down lists, radio buttons etc.
+
+Note: If you decide not to implement the User Interface as described above, but you
+implement directly on the DBMS the described modifications and queries, you will still
+receive 40% of the grade of this requirement, i.e. 12% of the total grade of the project instead of 30%.
+
+(10%) The user should be able to see also two specific Views. You have to implement the
+views as SQL views. View 1: the first view is the number of available rooms per area. View
+2: the second view is the capacity of all the rooms of a specific hotel. 
