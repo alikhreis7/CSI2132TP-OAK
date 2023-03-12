@@ -1,0 +1,3 @@
+[submodule "client"]
+	path = client
+	url = https://github.com/alikhreis7/CSI2132TP-OAK.git
